@@ -1,0 +1,4 @@
+F:\toantnm\ASP.NETCore\DemoEFCodeFirst\obj\Debug\netcoreapp2.0\DemoEFCodeFirst.csprojAssemblyReference.cache
+F:\toantnm\ASP.NETCore\DemoEFCodeFirst\obj\Debug\netcoreapp2.0\DemoEFCodeFirst.csproj.CoreCompileInputs.cache
+F:\toantnm\ASP.NETCore\DemoEFCodeFirst\obj\Debug\netcoreapp2.0\DemoEFCodeFirst.AssemblyInfoInputs.cache
+F:\toantnm\ASP.NETCore\DemoEFCodeFirst\obj\Debug\netcoreapp2.0\DemoEFCodeFirst.AssemblyInfo.cs

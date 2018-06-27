@@ -1,0 +1,11 @@
+F:\toantnm\ASP.NETCore\SportStore\SportStore.Domain\bin\Debug\netcoreapp2.1\SportStore.Domain.deps.json
+F:\toantnm\ASP.NETCore\SportStore\SportStore.Domain\bin\Debug\netcoreapp2.1\SportStore.Domain.runtimeconfig.json
+F:\toantnm\ASP.NETCore\SportStore\SportStore.Domain\bin\Debug\netcoreapp2.1\SportStore.Domain.runtimeconfig.dev.json
+F:\toantnm\ASP.NETCore\SportStore\SportStore.Domain\bin\Debug\netcoreapp2.1\SportStore.Domain.dll
+F:\toantnm\ASP.NETCore\SportStore\SportStore.Domain\bin\Debug\netcoreapp2.1\SportStore.Domain.pdb
+F:\toantnm\ASP.NETCore\SportStore\SportStore.Domain\obj\Debug\netcoreapp2.1\SportStore.Domain.csprojAssemblyReference.cache
+F:\toantnm\ASP.NETCore\SportStore\SportStore.Domain\obj\Debug\netcoreapp2.1\SportStore.Domain.csproj.CoreCompileInputs.cache
+F:\toantnm\ASP.NETCore\SportStore\SportStore.Domain\obj\Debug\netcoreapp2.1\SportStore.Domain.AssemblyInfoInputs.cache
+F:\toantnm\ASP.NETCore\SportStore\SportStore.Domain\obj\Debug\netcoreapp2.1\SportStore.Domain.AssemblyInfo.cs
+F:\toantnm\ASP.NETCore\SportStore\SportStore.Domain\obj\Debug\netcoreapp2.1\SportStore.Domain.dll
+F:\toantnm\ASP.NETCore\SportStore\SportStore.Domain\obj\Debug\netcoreapp2.1\SportStore.Domain.pdb
