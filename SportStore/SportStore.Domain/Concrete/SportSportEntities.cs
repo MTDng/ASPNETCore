@@ -3,9 +3,9 @@ using SportStore.Domain.Entities;
 
 namespace SportStore.Domain.Concrete
 {
-	public class SportStoreEntities : DbContext
+	public class EntitiesContext : DbContext
 	{
-		public SportStoreEntities(DbContextOptions<SportStoreEntities> options) : base(options)
+		public EntitiesContext(DbContextOptions<EntitiesContext> options) : base(options)
 		{
 		}
 

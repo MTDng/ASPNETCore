@@ -3,9 +3,10 @@ using System.ComponentModel.DataAnnotations;
 
 namespace DemoEFCodeFirst.Models
 {
-    public class Employee
+    public class Employee: IEntity
     {
         public int Id { get; set; }
+        
         [Required]
         public string Name { get; set; }
         [Required]
