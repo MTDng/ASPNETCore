@@ -32,3 +32,9 @@ F:\toantnm\ASP.NETCore\SportStore\SportStore.WebUI\obj\Debug\netcoreapp2.1\Sport
 F:\toantnm\ASP.NETCore\SportStore\SportStore.WebUI\obj\Debug\netcoreapp2.1\SportStore.WebUI.csproj.CopyComplete
 F:\toantnm\ASP.NETCore\SportStore\SportStore.WebUI\obj\Debug\netcoreapp2.1\SportStore.WebUI.dll
 F:\toantnm\ASP.NETCore\SportStore\SportStore.WebUI\obj\Debug\netcoreapp2.1\SportStore.WebUI.pdb
+F:\toantnm\ASP.NETCore\SportStore\SportStore.WebUI\obj\Debug\netcoreapp2.1\Razor\Views\Product\Index.g.cshtml.cs
+F:\toantnm\ASP.NETCore\SportStore\SportStore.WebUI\obj\Debug\netcoreapp2.1\Razor\Views\Category\Create.g.cshtml.cs
+F:\toantnm\ASP.NETCore\SportStore\SportStore.WebUI\obj\Debug\netcoreapp2.1\Razor\Views\Category\Delete.g.cshtml.cs
+F:\toantnm\ASP.NETCore\SportStore\SportStore.WebUI\obj\Debug\netcoreapp2.1\Razor\Views\Category\Details.g.cshtml.cs
+F:\toantnm\ASP.NETCore\SportStore\SportStore.WebUI\obj\Debug\netcoreapp2.1\Razor\Views\Category\Edit.g.cshtml.cs
+F:\toantnm\ASP.NETCore\SportStore\SportStore.WebUI\obj\Debug\netcoreapp2.1\Razor\Views\Category\Index.g.cshtml.cs

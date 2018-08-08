@@ -11,6 +11,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;  
 using SportStore.Domain.Concrete;
+using SportStore.Abstract;
+using SportStore.Concrete;
 
 namespace SportStore.WebUI
 {
@@ -33,8 +35,9 @@ namespace SportStore.WebUI
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
+            services.AddDbContext<EntitiesContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DBConnStr"), x => x.MigrationsAssembly("SportStore.WebUI")));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
