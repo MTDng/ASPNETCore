@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Identity;
 namespace DemoMySQLEF.Areas.Identity.Data
 {
     // Add profile data for application users by adding properties to the DemoUser class
-    public class DemoUser : IdentityUser<Guid>
+    public class AppUser : IdentityUser<Guid>
     {
         [PersonalData]
         public string Name { get; set; }

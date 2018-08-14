@@ -124,7 +124,7 @@ using DemoMySQLEF.Models;
             WriteLiteral("\n        </dd>\n    </dl>\n</div>\n<div>\n    ");
             EndContext();
             BeginContext(701, 64, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e84802463ab24d13ae6323bedd77ed45", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d2b4850772ec4bafb6c27cbba2d87840", async() => {
                 BeginContext(757, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -159,7 +159,7 @@ using DemoMySQLEF.Models;
             WriteLiteral(" |\n    ");
             EndContext();
             BeginContext(772, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0567dff94b364235bb8e2a9d6e5aaa68", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8e4764f2a9a5426696e6e29351146408", async() => {
                 BeginContext(794, 12, true);
                 WriteLiteral("Back to List");
                 EndContext();

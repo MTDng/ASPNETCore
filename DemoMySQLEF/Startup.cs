@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.EntityFrameworkCore;
@@ -50,8 +51,15 @@ namespace DemoMySQLEF
             //     options.LowercaseUrls = true;
             // });
             services.AddTransient<IUnitOfWork, UnitOfWork>();
+            services.AddTransient<IEmailSender, EmailSender>();
             services.AddDbContext<DataContext>(options => options.UseMySql(Configuration.GetConnectionString("DBConnStr")));
-            
+
+
+            services.AddAuthentication().AddFacebook(facebookOptions =>
+            {
+                facebookOptions.AppId = Configuration["Authentication:Facebook:AppId"];
+                facebookOptions.AppSecret = Configuration["Authentication:Facebook:AppSecret"];
+            });
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 

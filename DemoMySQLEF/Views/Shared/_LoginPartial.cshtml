@@ -1,7 +1,7 @@
 <!-- @using Microsoft.AspNetCore.Identity -->
 @using DemoMySQLEF.Areas.Identity.Data
-@inject SignInManager<DemoUser> SignInManager
-@inject UserManager<DemoUser> UserManager
+@inject SignInManager<AppUser> SignInManager
+@inject UserManager<AppUser> UserManager
 
 @if (SignInManager.IsSignedIn(User))
 {

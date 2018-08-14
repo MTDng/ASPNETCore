@@ -55,3 +55,4 @@ F:\toantnm\ASP.NETCore\DemoMySQLEF\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\
 F:\toantnm\ASP.NETCore\DemoMySQLEF\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
 F:\toantnm\ASP.NETCore\DemoMySQLEF\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
 F:\toantnm\ASP.NETCore\DemoMySQLEF\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+F:\toantnm\ASP.NETCore\DemoMySQLEF\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs

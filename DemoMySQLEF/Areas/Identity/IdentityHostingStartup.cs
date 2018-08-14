@@ -21,7 +21,8 @@ namespace DemoMySQLEF.Areas.Identity
                     options.UseMySql(
                         context.Configuration.GetConnectionString("IdentityContextConnection")));
 
-                services.AddDefaultIdentity<DemoUser>(options =>
+                // services.AddDefaultIdentity<AppUser>(options =>
+                services.AddIdentity<AppUser, AppRole>(options =>
                 {
                     // Lockout settings
                     options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
@@ -45,7 +46,8 @@ namespace DemoMySQLEF.Areas.Identity
                     // "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
                     // options.User.RequireUniqueEmail = false;
                 })
-                .AddEntityFrameworkStores<IdentityContext>();
+                .AddEntityFrameworkStores<IdentityContext>()
+                .AddDefaultTokenProviders();
 
                 services.ConfigureApplicationCookie(options =>
                 {
@@ -54,7 +56,7 @@ namespace DemoMySQLEF.Areas.Identity
                     options.Cookie.Name = "YourAppCookieName";
                     options.Cookie.HttpOnly = true;
                     options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
-                    options.LoginPath = "/Account/Login";
+                    options.LoginPath = "/Identity/Account/Login";
                     // ReturnUrlParameter requires `using Microsoft.AspNetCore.Authentication.Cookies;`
                     options.ReturnUrlParameter = CookieAuthenticationDefaults.ReturnUrlParameter;
                     options.SlidingExpiration = true;

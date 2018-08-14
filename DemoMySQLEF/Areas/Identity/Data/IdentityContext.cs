@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DemoMySQLEF.Areas.Identity.Data
 {
-    public class IdentityContext : IdentityDbContext<DemoUser, IdentityRole<Guid>, Guid>
+    public class IdentityContext : IdentityDbContext<AppUser, AppRole, Guid>
     {
         public IdentityContext(DbContextOptions<IdentityContext> options)
             : base(options)
