@@ -20,12 +20,14 @@ namespace DemoMySQLEF.Controllers
         }
 
         // GET: Student
+        // [Route("sinhvien")]
         public async Task<IActionResult> Index()
         {
             return View(await uow.StudentRepository.GetAllAsync());
         }
 
         // GET: Student/Details/5
+        // [Route("sinhvien-chi-tiet-{id}")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -69,6 +71,7 @@ namespace DemoMySQLEF.Controllers
         }
 
         // GET: Student/Edit/5
+        // [Route("sinhvien-{id}")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
