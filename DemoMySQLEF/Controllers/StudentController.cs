@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using DemoMySqlEF.Models;
 using DemoMySQLEF.Models.Interface;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DemoMySQLEF.Controllers
 {
+    [Authorize]
     public class StudentController : Controller
     {
         private readonly IUnitOfWork uow;
